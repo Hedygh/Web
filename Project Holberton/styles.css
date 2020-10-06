@@ -1,0 +1,229 @@
+				/* basic flexbox assignment */ 
+body {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+main {
+	display: flex;
+	flex-direction: row;
+       	flex: auto;
+	padding-right: 3em;	
+}
+
+article {
+	flex: 2;
+	overflow-y: auto;
+}
+
+aside {
+	background-image: url("img/f14.png");
+	background-size: cover;
+	border-radius: 15px;
+	flex: 1;
+	overflow-y: auto;
+}
+footer {
+	display: flex;
+	flex-direction : row;
+}
+
+				/* body background */
+.fullbg {
+	height: 500%;
+	background-image: url("img/f14.png");
+	background-position: center;
+	background-repeat: repeat;
+	background-size: cover;	
+}
+/*header background */
+.lg {
+	padding-left: 2em;
+	padding-bottom: 0.5em;
+	width: 4%;
+	height: auto;
+}
+header {
+	background-image: url("img/fruitbgstyle.png");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-style: hidden;
+}
+				/*navigation bar */
+.navlinks {
+	display: flex;
+	flex-direction: row;
+}
+.navlinks a {
+	padding-left: 2em;
+        color: black;
+	opacity: 0.9;
+}
+.navlinks a:hover {
+	font-weight: bold;
+	font-size: 1em;
+        color : #f23a3a;
+}
+.navlinks a:active {
+	color: white;
+}
+.navlinks a:focus{
+        color: black;
+}
+				/*  Article layout */
+.contain1 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-left: 2em;
+	overflow: auto;
+}
+.contain2 {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding-left: 2em;
+}
+.c1item3 {
+	align-self: start;
+}
+.c1item5 {
+	align-self: start;
+}
+h1 {
+	font-size: 1.9em;
+}
+h2 { 
+	font-size: 1.5em;
+}
+p {
+	font-size: 1.1em;
+}
+.contain1 h3 {
+        padding-bottom: 1.2em;
+        font-size: 1.3em;
+}
+h4 {
+        font-size: 1.2em;
+}
+
+			/*Homepage*/
+.mixf2 {
+        padding-left: 0.5em;
+}
+.mixf3 {
+        padding-left: 1em;
+}
+.contfruits {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	overflow: hidden;
+}
+.proceed {
+	padding-top: 2em;
+}
+.proceed a{
+	color: black;
+	font-size: 1.2em;
+	text-decoration: none;
+	font-weight: bold;
+	font-style: italic;
+}
+.proceed a:hover{
+	text-decoration: underline;
+}
+				/* page2 */
+span.smtname {
+	font-weight: bold;
+	text-shadow: 2px 2px 4px brown;
+}
+span.blender{
+	text-decoration: underline;
+	font-style: italic;
+	color: black;
+}
+.fstrec {
+	display: flex;
+	flex-direction: row;
+}
+.fstrec img{
+	width: 70%;
+	padding-left: 3em;
+	padding-bottom: 2em;
+}
+
+				/* page3 */
+.contain1 h3 {
+	padding-bottom: 1.2em;
+	font-size: 1.3em;
+}
+.contain1 h4 {
+	text-align: left;
+	font-size: 1.2em;
+}
+.sndrec {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+/*page3 images */
+.sndrec img {
+	padding-left: 3em;
+}
+.bana {
+	width: 70%;
+}
+.strawb {
+	width: 55%;
+}
+.mixbrs { 
+	width: 50%;
+}
+.almond {
+	width: 35%;
+}
+.lemon {
+	width: 45%;
+}
+				/*  tweets */
+.tweet1 {
+	display: flex;
+	width: 100%;
+	padding-bottom: 3em;
+	overflow: hidden;
+}
+	
+				/*selection */
+.fullbg ::selection{
+	background-color: #f990ef;
+}
+.fullbg ::-moz-selection{
+	background-color: #f990ef;
+}
+/* top page link */
+.top{
+	text-align: center;
+}
+				/* footer option */
+footer {
+	display: flex;
+	justify-content: flex-end;
+}
+footer a{
+	text-decoration: none;
+	font-weight: bold;
+}
+footer a:hover {
+	text-decoration: underline;
+}
+footer p{
+	font-size: 1em;
+}
+.holberton-school-logo {
+	width: 5%;
+	-moz-border-radius: 75px;
+	-webkit-border-radius: 75px;
+	border-radius: 75px;
+}
